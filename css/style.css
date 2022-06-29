@@ -1054,3 +1054,71 @@ menu .menu-slide .carousel .carousel-control-next i{
     border-radius: 50%;
     box-shadow: 13px 16px 39px -7px #000000;
 }
+
+
+            /* ============= class SECTION END ============= */
+
+
+
+            /* ============= class MAIN START ============= */
+
+.main .main-top .bor-bot{
+    border-bottom: 1px solid #c9d5d5;
+}
+.main .main-top p{
+    margin: 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36.34px;
+    line-height: 43px;
+    color: #1147AB;
+    margin-bottom: 12px;
+    position: relative;
+}
+.main .main-top p::after{
+    content: "";
+    background: #1147AB;
+    display: block;
+    height: 2px;
+    position: absolute;
+    width: 285px;
+    top: 97px;
+    left: -12px;
+}
+.main .main-top a{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1147AB;
+    text-decoration: none;
+    padding: 12px 24px 14px 22px;
+    border: 1px solid #1147AB;
+    margin-bottom: 12px;
+    display: inline-block;
+}
+.main .main-top a i{
+    margin-left: 14px;
+}
+.main .main-map {
+    padding-top: 53px;
+}
+.main .main-map .cart {
+    background: red;
+}
+.main .main-map .cart .region{
+    margin: 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 134.1%;
+    color: #1147AB;
+}
+.main .main-map .cart .block {
+    display: flex;
+    flex-direction: column;
+}
+
