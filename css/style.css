@@ -95,12 +95,15 @@ header .header-bottom .menu-bar .left .side-bar {
     justify-content: center;
     align-items: center;
     margin-bottom: 38px;
-    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+    color: #FFFFFF;
 }
 header .header-bottom .menu-bar .left .side-bar i{
-    text-decoration: none;
-    color: #FFFFFF;
     font-size: 34px;
+}
+header .header-bottom .menu-bar .left .side-bar .fa-x{
+    display: none;
 }
 header .header-bottom .menu-bar .left a .fa-eye{
     color: #FFFFFF;
@@ -1337,7 +1340,7 @@ menu .menu-slide .carousel .carousel-control-next i{
     line-height: 22px;
     letter-spacing: 0.55px;
     color: #000000;
-    margin-top: 66px;
+    margin-top: 69px;
     display: block;
     margin-right: 28px;
 }
@@ -1524,4 +1527,98 @@ footer .footer-bottom .icons a{
     padding: 11px;
     color: #FFFFFF;
     text-decoration: none;
+}
+
+
+
+            /* ============= MEDIA QUERY ============= */
+
+
+            /* 1339px XL */
+@media (max-width: 1399px) {
+    header .header-bottom .left .cart .one {
+        font-size: 81px;
+    }
+    header .header-bottom .left .cart .sistem h2 {
+        font-size: 44px;
+    }
+    header .header-bottom .left .cart .sistem p {
+        font-size: 15px;
+    }
+    header .header-bottom .img1 a,
+    header .header-bottom .img2 a,
+    header .header-bottom .img3 a {
+        font-size: 41px;
+    }
+    main .main-bottom .right p {
+        font-size: 15px;
+    }
+    section {
+        max-width: 1140px;
+        width: 100%;
+    }
+    menu .menu-slide .carousel .carousel-inner .carousel-item .cart1 {
+        left: -20px;
+    }
+    menu .menu-slide .carousel .carousel-inner .carousel-item .cart2 {
+        left: 363px;
+    }
+    menu .menu-slide .carousel .carousel-inner .carousel-item .cart3  {
+        left: 741px;
+    }
+    menu .menu-slide .carousel .carousel-control-prev i {
+        bottom: -80px;
+        left: 468px;
+        top: unset;
+    }
+    menu .menu-slide .carousel .carousel-control-next i {
+        left: -347px;
+        bottom: -80px;
+        top: unset;
+    }
+    .menu .menu-field {
+        max-width: 1140px;
+        width: 100%;
+    }
+    .section .carousel .carousel-inner .carousel-item .comment p {
+        font-size: 16px;
+    }
+    .section .carousel .carousel-inner .carousel-item .comment {
+        padding-left: 45px;
+    }
+    .section .carousel .carousel-inner .carousel-item .comment .quote1  {
+        left: 12px;
+    }
+    .section .carousel .carousel-control-next i {
+        bottom: 114px;
+        right: 160px;
+    }
+    .section .carousel .carousel-control-prev i {
+        bottom: 115px;
+        left: 830px;
+    }
+    .main .main-map .cart .block {
+        justify-content: center;
+    }
+    .main .main-map .cart .region {
+        text-align: center;
+    }
+    .main .main-map .cart .link {
+        text-align: center;
+        display: block;
+    }
+    .main .main-map .cart .block .box2 {
+        margin-left: 100px;
+    }
+    .menu-block .menu-block-cart2{
+        padding: 21px 42px 11px 40px;
+    }
+    .menu-block .menu-block-cart3 {
+        padding: 36px 42px 21px 40px;
+    }
+    .menu-block .menu-block-cart1 p,
+    .menu-block .menu-block-cart2 p,
+    .menu-block .menu-block-cart3 p {
+        font-size: 14px;
+    }
 }
