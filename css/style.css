@@ -1062,6 +1062,9 @@ menu .menu-slide .carousel .carousel-control-next i{
 
             /* ============= class MAIN START ============= */
 
+.main {
+    background: #F5F5F5;
+}
 .main .main-top .bor-bot{
     border-bottom: 1px solid #c9d5d5;
 }
@@ -1106,7 +1109,10 @@ menu .menu-slide .carousel .carousel-control-next i{
     padding-top: 53px;
 }
 .main .main-map .cart {
-    background: red;
+    background: #FFFFFF;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 15px;
 }
 .main .main-map .cart .region{
     margin: 0;
@@ -1115,11 +1121,108 @@ menu .menu-slide .carousel .carousel-control-next i{
     font-weight: 800;
     font-size: 30px;
     line-height: 134.1%;
-    color: #1147AB;
+    color: #0047FF;
 }
-
+.main .main-map .cart .link {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 134.1%;
+    color: #1147AB;
+    text-decoration: none;
+}
 .main .main-map .cart .block {
     display: flex;
-    flex-direction: column;
+    position: relative;
 }
-
+.main .main-map .cart .block .box1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 55px;
+    padding-left: 32px;
+}
+.main .main-map .cart .block .box1 .link1{
+    margin-bottom: 90px;
+    text-decoration: none;
+}
+.main .main-map .cart .block .box1 p{
+    margin: 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 57px;
+    color: #000000;
+}
+.main .main-map .cart .block .box1 span{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 90px;
+}
+.main .main-map .cart .block .box1::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #E7E7E7;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    left: 137px;
+    top: 82px;
+}
+.main .main-map .cart .block .box1::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #E7E7E7;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    left: 137px;
+    bottom: 69px;
+}
+.main .main-map .cart .block .line{
+    position: absolute;
+    bottom: 72px;
+    display: block;
+    height: 340px;
+    width: 2px;
+    background: #E7E7E7;
+    left: 141px;  
+}
+.main .main-map .cart .block .line::after{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #E7E7E7;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    left: -4px;
+    bottom: 159px;
+}
+.main .main-map .cart .block .box2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 55px;
+    margin-left: 30px;
+    padding-left: 30px;
+}
+.main .main-map .cart .block .box2 p{
+    margin: 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 57px;
+    color: #000000;
+}
+.main .main-map .cart .block .box2 a{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
