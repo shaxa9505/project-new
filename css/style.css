@@ -1828,8 +1828,12 @@ footer .footer-bottom .icons a{
     }
 }
 
+
             /* 991px MD */
 @media (max-width: 991px) {
+
+                    /* ============= HEADER START ============= */
+
     header .header-bottom .menu-bar .left {
         justify-content: start;
         margin-left: 60px;
@@ -1855,6 +1859,9 @@ footer .footer-bottom .icons a{
     header .header-bottom .menu-bar .right ul li a {
         font-size: 12px;
     }
+
+                    /* ============= MAIN START ============= */
+
     main .main-top p {
         font-size: 30px;
     }
@@ -1864,6 +1871,9 @@ footer .footer-bottom .icons a{
     main .main-bottom .right .img {
         width: 100%;
     }
+
+                    /* ============= SECTION START ============= */
+
     section .block1 h3 {
         font-size: 30px;
     }
@@ -1875,6 +1885,9 @@ footer .footer-bottom .icons a{
     section .block4 p {
         font-size: 18px;
     }
+
+                    /* ============= MENU START ============= */
+
     menu .menu-top p {
         font-size: 30px;
     }
@@ -1902,6 +1915,9 @@ footer .footer-bottom .icons a{
     menu .menu-slide .carousel .carousel-control-prev i {
         left: 296px;
     }
+
+                    /* ============= class MENU START ============= */
+
     .menu .menu-top p {
         font-size: 30px;
     }
@@ -1924,6 +1940,9 @@ footer .footer-bottom .icons a{
     .menu .menu-field .block-left .box6 a {
         font-size: 24px;
     }
+
+                    /* ============= class SECTION START ============= */
+
     .section .carousel .carousel-inner .carousel-item h3 {
         font-size: 30px;
     }
@@ -1938,6 +1957,9 @@ footer .footer-bottom .icons a{
         bottom: 16px;
         right: -1px;
     }
+    
+                    /* ============= class MAIN START ============= */
+
     .main .main-top p {
         font-size: 25px;
     }
@@ -1953,9 +1975,15 @@ footer .footer-bottom .icons a{
     .main .main-map .cart .block .box1::after {
         left: 319px;
     }
+
+                    /* ============= class SECTION-BLOCK START ============= */
+
     .section-block .section-block-top p {
         font-size: 30px;
     }
+
+                    /* ============= class MENU-BLOCK START ============= */
+
     .menu-block .menu-block-top p {
         font-size: 30px;
     }
@@ -1974,3 +2002,151 @@ footer .footer-bottom .icons a{
         padding: 27px 42px 26px 40px;
     }
 }
+
+
+            /* 767px SM */
+@media (max-width: 767px) {
+
+                            /* ============= HEADER START ============= */
+
+    header .header-top .header-top-right{
+        margin-top: 20px;
+    }
+    header .header-bottom .menu-bar .left {
+        margin-left: -50px;
+    }
+    header .header-bottom .menu-bar .right {
+        margin-left: -50px;
+    }
+    header .header-bottom .left .cart .one {
+        font-size: 55px;
+        margin-right: 0;
+    }
+    header .header-bottom .left .cart .one {
+        padding-left: 8px;
+    }
+    header .header-bottom .left .cart .sistem h2 {
+        font-size: 37px;
+    }
+    header .header-bottom .left .cart .sistem p {
+        font-size: 14px;
+    }
+    header .header-bottom .left .cart .sistem button {
+        font-size: 15px;
+    }
+    header .header-bottom .menu-bar .left a .fa-telegram, 
+    header .header-bottom .menu-bar .left a .fa-facebook-f, 
+    header .header-bottom .menu-bar .left a .fa-instagram, 
+    header .header-bottom .menu-bar .left a .fa-twitter {
+        margin-left: 50px;
+    }
+    header .header-bottom .img1, header .header-bottom .img2, header .header-bottom .img3 {
+        padding-top: 420px;
+    }
+    header .header-bottom .img1, 
+    header .header-bottom .img2,
+    header .header-bottom .img3 {
+        padding-top: 470px;
+    }
+
+                            /* ============= MAIN START ============= */
+
+    main .main-bottom .left p {
+        font-size: 26px;
+    }
+    main .main-bottom .right .bor-yellow {
+        border-left: 3px solid transparent;
+    }
+    main .main-bottom .right .bor-red {
+        border-left: 3px solid transparent;
+    }
+    main .main-bottom .right .bor-blue {
+        border-left: 3px solid transparent;
+    }
+    main .main-bottom .right .first,
+    main .main-bottom .right .second,
+    main .main-bottom .right .third {
+        margin-bottom: 25px;
+    }
+
+                            /* ============= SECTION START ============= */
+
+    section {
+        max-width: 540px;
+        width: 100%;
+    }
+    section .block1 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    section .block1 p {
+        font-size: 14px;
+    }
+    section .block2 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    section .block3 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    section .block4 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+                            /* ============= class MENU START ============= */
+
+    .menu .menu-field {
+        max-width: 540px;
+        width: 100%;
+    }
+    .menu .menu-field .block-left {
+        width: 100%;
+    }
+    .menu .menu-field .block-right {
+        width: 100%;
+    }
+
+                            /* ============= class MAIN START ============= */
+
+    .main .main-top p {
+        font-size: 22px;
+    }
+    .main .main-top a {
+        margin-top: 20px;
+    }
+    .main .main-map .cart .block .line {
+        left: 234px;
+    }
+    .main .main-map .cart .block .box1::before {
+        left: 230px;
+    }
+    .main .main-map .cart .block .box1::after {
+        left: 230px;
+    }
+
+                        /* ============= class SECTION-BLOCK START ============= */
+
+    .section-block .section-block-top p {
+        font-size: 25px;
+    }
+    .section-block .section-block-cart .list-group .list-group-item {
+        font-size: 16px;
+    }
+    .section-block .section-block-cart .tab-content .tab-pane .accordion .accordion-item .accordion-header .accordion-button {
+        font-size: 14px;
+    }
+
+                       /* ============= class MENU-BLOCK START ============= */
+
+    .menu-block .menu-block-cart2 {
+        padding: 25px 42px 29px 36px;
+    }
+
+                        /* ============= FOOTER START ============= */
+
+    footer .footer-bottom .icons a {
+        margin-right: 9px;
+    }
+} 
