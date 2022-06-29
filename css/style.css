@@ -1672,6 +1672,9 @@ footer .footer-bottom .icons a{
 
             /* 1199px LG */
 @media (max-width: 1199px) {
+
+                    /* ============= HEADER START ============= */
+
     header .header-bottom .menu-bar .left {
         flex-direction: row;
         align-items: center;
@@ -1712,6 +1715,9 @@ footer .footer-bottom .icons a{
     header .header-bottom .img3{
         padding-top: 600px;
     }
+
+                    /* ============= SECTION START ============= */
+
     section {
         max-width: 960px;
         width: 100%;
@@ -1729,6 +1735,9 @@ footer .footer-bottom .icons a{
     section .block4 p {
         font-size: 25px;
     }
+
+                    /* ============= MENU START ============= */
+
     menu .menu-slide .carousel .carousel-inner .carousel-item .cart1 {
         left: -2px;
     }
@@ -1747,6 +1756,9 @@ footer .footer-bottom .icons a{
     menu .menu-slide .carousel .carousel-control-prev i {
         max-width: 960px;
     }
+
+                    /* ============= class MENU START ============= */
+
     .menu .menu-field .block-left .box2 img {
         min-height: 100%;
     }
@@ -1756,6 +1768,9 @@ footer .footer-bottom .icons a{
     .menu .menu-field .block-right .box3 {
         height: 125px;
     }
+
+                    /* ============= class SECTION START ============= */
+
     .section .carousel .carousel-inner .carousel-item .link  {
         margin-bottom: 40px;
     }
@@ -1765,6 +1780,9 @@ footer .footer-bottom .icons a{
     .section .carousel .carousel-control-next i {
         display: none;
     }
+
+                    /* ============= class MAIN START ============= */
+
     .main .main-map .cart .block .line {
         left: 442px;
     }
@@ -1774,12 +1792,18 @@ footer .footer-bottom .icons a{
     .main .main-map .cart .block .box1::after {
         left: 438px;
     }
+
+                    /* ============= class SECTION-BLOCK START ============= */
+
     .section-block .section-block-cart .list-group .list-group-item {
         font-size: 17px;
     }
     .section-block .section-block-cart .tab-content .tab-pane .accordion .accordion-item .accordion-header .accordion-button {
         font-size: 15px;
     }
+
+                    /* ============= class MENU-BLOCK START ============= */
+
     .menu-block .menu-block-top p::after {
         top: 54px;
     }
@@ -1793,10 +1817,160 @@ footer .footer-bottom .icons a{
     .menu-block .menu-block-cart1 {
         padding: 29px 42px 4px 40px
     }
+
+                    /* ============= FOOTER START ============= */
+
     footer .footer-top ul .first a {
         font-size: 17px;
     }
     footer .footer-top ul li a {
         font-size: 14px;
+    }
+}
+
+            /* 991px MD */
+@media (max-width: 991px) {
+    header .header-bottom .menu-bar .left {
+        justify-content: start;
+        margin-left: 60px;
+    }
+    header .header-bottom .menu-bar .left a .fa-eye {
+        margin-left: 20px;
+    }
+    header .header-bottom .menu-bar .left .dropdown .btn-secondary {
+        margin-left: 20px;
+    }
+    header .header-bottom .menu-bar .left a .fa-telegram, 
+    header .header-bottom .menu-bar .left a .fa-facebook-f, 
+    header .header-bottom .menu-bar .left a .fa-instagram, 
+    header .header-bottom .menu-bar .left a .fa-twitter {
+        margin-left: 32px;
+    }
+    header .header-bottom .menu-bar .right {
+        margin-left: 60px;
+    }
+    header .header-bottom .menu-bar .right ul li .first  {
+        font-size: 19px;
+    }
+    header .header-bottom .menu-bar .right ul li a {
+        font-size: 12px;
+    }
+    main .main-top p {
+        font-size: 30px;
+    }
+    main .main-bottom .left p {
+        font-size: 30px;
+    }
+    main .main-bottom .right .img {
+        width: 100%;
+    }
+    section .block1 h3 {
+        font-size: 30px;
+    }
+    section .block1 p {
+        font-size: 11px;
+    }
+    section .block2 p,
+    section .block3 p,
+    section .block4 p {
+        font-size: 18px;
+    }
+    menu .menu-top p {
+        font-size: 30px;
+    }
+    menu .menu-slide .carousel .carousel-inner .carousel-item .cart1 {
+        max-width: 218px;
+    }
+    menu .menu-slide .carousel .carousel-inner .carousel-item .cart2 {
+        max-width: 218px;
+        padding: 43px 26px 123px 31px;
+        left: 237px;
+    }
+    menu .menu-slide .carousel .carousel-inner .carousel-item .cart3 {
+        max-width: 218px;
+        left: 478px;
+        padding: 43px 26px 151px 31px
+    }
+    menu .menu-slide .carousel .carousel-inner .carousel-item .cart1 p, 
+    menu .menu-slide .carousel .carousel-inner .carousel-item .cart2 p,
+    menu .menu-slide .carousel .carousel-inner .carousel-item .cart3 p {
+        font-size: 17px;
+    }
+    menu .menu-slide .carousel .carousel-control-next i {
+        left: -192px;
+    }
+    menu .menu-slide .carousel .carousel-control-prev i {
+        left: 296px;
+    }
+    .menu .menu-top p {
+        font-size: 30px;
+    }
+    .menu .menu-field {
+        max-width: 720px;
+        width: 100%;
+    }
+    .menu .menu-field .block-left .box1 a {
+        font-size: 24px;
+    }
+    .menu .menu-field .block-right .box2 a {
+        font-size: 23px;
+    }
+    .menu .menu-field .block-left .box4 a {
+        font-size: 24px;
+    }
+    .menu .menu-field .block-right .box3 a {
+        font-size: 24px;
+    }
+    .menu .menu-field .block-left .box6 a {
+        font-size: 24px;
+    }
+    .section .carousel .carousel-inner .carousel-item h3 {
+        font-size: 30px;
+    }
+    .section .carousel .carousel-inner .carousel-item .comment p  {
+        font-size: 15px;
+    }
+    .section .carousel .carousel-inner .carousel-item .comment .quote1 {
+        left: 0px;
+        top: 92px;
+    } 
+    .section .carousel .carousel-inner .carousel-item .comment .quote2 {
+        bottom: 16px;
+        right: -1px;
+    }
+    .main .main-top p {
+        font-size: 25px;
+    }
+    .main .main-map .map{
+        width: 100%;
+    }
+    .main .main-map .cart .block .line {
+        left: 323px;
+    }
+    .main .main-map .cart .block .box1::before {
+        left: 319px;
+    }
+    .main .main-map .cart .block .box1::after {
+        left: 319px;
+    }
+    .section-block .section-block-top p {
+        font-size: 30px;
+    }
+    .menu-block .menu-block-top p {
+        font-size: 30px;
+    }
+    .menu-block .menu-block-cart1 {
+        padding: 29px 42px 44px 40px;
+    }
+    .menu-block .menu-block-cart2 {
+        padding: 12px 42px 11px 36px;
+    }
+    .menu-block .menu-block-cart1 p, 
+    .menu-block .menu-block-cart2 p, 
+    .menu-block .menu-block-cart3 p {
+        font-size: 12px;
+    }
+    .menu-block .menu-block-cart3 {
+        padding: 27px 42px 26px 40px;
     }
 }
