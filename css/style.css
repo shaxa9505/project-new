@@ -2038,7 +2038,7 @@ footer .footer-bottom .icons a{
     header .header-bottom .menu-bar .left a .fa-facebook-f, 
     header .header-bottom .menu-bar .left a .fa-instagram, 
     header .header-bottom .menu-bar .left a .fa-twitter {
-        margin-left: 50px;
+        margin-left: 42px;
     }
     header .header-bottom .img1, header .header-bottom .img2, header .header-bottom .img3 {
         padding-top: 420px;
@@ -2046,7 +2046,7 @@ footer .footer-bottom .icons a{
     header .header-bottom .img1, 
     header .header-bottom .img2,
     header .header-bottom .img3 {
-        padding-top: 470px;
+        padding-top: 420px;
     }
 
                             /* ============= MAIN START ============= */
@@ -2150,3 +2150,156 @@ footer .footer-bottom .icons a{
         margin-right: 9px;
     }
 } 
+
+            /* 575px XS */
+@media (max-width: 575px) {
+
+                        /* ============= HEADER START ============= */
+
+    header .header-top .header-top-left a {
+        font-size: 12px;
+    }
+    header .header-bottom .menu-bar .left a .fa-telegram,
+    header .header-bottom .menu-bar .left a .fa-facebook-f, 
+    header .header-bottom .menu-bar .left a .fa-instagram, 
+    header .header-bottom .menu-bar .left a .fa-twitter {
+        display: none;
+    }
+    header .header-bottom .left .cart .sistem h2 {
+        font-size: 33px;
+    }
+    header .header-bottom .left .cart .sistem p {
+        font-size: 13px;
+    }
+    header .header-bottom .left .cart .sistem button {
+        font-size: 13px;
+    }
+
+                        /* ============= MAIN START ============= */
+
+    main .main-top p {
+        font-size: 21px;
+    }
+    main .main-top a {
+        font-size: 11px;
+    }
+    main .main-bottom .left p {
+        font-size: 18px;
+    }
+
+                        /* ============= SECTION START ============= */
+
+    section .block1 p {
+        font-size: 12px;
+    } 
+    section .block3 p, 
+    section .block4 p {
+        font-size: 16px;
+    }
+    section .block3, 
+    section .block4 {
+        padding-left: 30px;
+    }
+    section .block2 p {
+        padding-left: 25px;
+        font-size: 16px;
+    }
+
+                        /* ============= class MENU START ============= */
+
+    .menu .menu-top p {
+        font-size: 20px;
+    }
+    .menu .menu-top a {
+        font-size: 8px;
+    }
+    .menu .menu-field .block-left .box1 img{
+        width: 100%;
+    }
+    .menu .menu-field .block-left .box3 img{
+        width: 100%;
+    }
+    .menu .menu-field .block-right .box1 img{
+        width: 100%;
+    }
+    .menu .menu-field .block-right .box2 {
+        height: 146px;
+    }
+    .menu .menu-field .block-right .box1 {
+        height: 146px;
+    }
+    .menu .menu-field .block-right .box2 a {
+        font-size: 18px;
+    }
+    .menu .menu-field .block-left .box1 a {
+        font-size: 18px;
+    }
+    .menu .menu-field .block-left .box4 a {
+        font-size: 18px;
+    }
+    .menu .menu-field .block-left .box6 a {
+        font-size: 18px;
+    }
+    .menu .menu-field .block-right .box3 a {
+        font-size: 18px;
+    }
+
+                        /* ============= class MAIN START ============= */
+
+    .main .main-top p {
+        font-size: 17px;
+    }
+    .main .main-top a {
+        margin-top: 50px;
+    }
+    .main .main-top p::after {
+        top: 129px;
+    }
+    .main .main-map .cart .block .box2 p {
+        font-size: 30px;
+    }
+    .main .main-map .cart .block .box1 p {
+        font-size: 30px;
+    }
+    .main .main-map .cart .block .box1 span {
+        font-size: 16px;
+    }
+    .main .main-map .cart .block .line {
+        display: none;
+    }
+    .main .main-map .cart .block .box1::before {
+        display: none;
+    }
+    .main .main-map .cart .block .box1::after {
+        display: none;
+    }
+    .main .main-map .cart .block .box2 {
+        margin-left: 35px;
+    }
+
+                        /* ============= class SECTION-BLOCK START ============= */
+
+    .section-block .section-block-top p {
+        font-size: 23px;
+        margin-bottom: 30px;
+    }
+    .section-block .section-block-cart .list-group .list-group-item {
+        font-size: 13px;
+    }
+    .section-block .section-block-cart .tab-content .tab-pane .accordion .accordion-item .accordion-header .accordion-button {
+        font-size: 12px;
+    }
+
+                        /* ============= FOOTER START ============= */
+
+    footer .footer-bottom .icons  {
+        margin-top: 20px;
+    }
+    footer .footer-bottom .icons a {
+        border: none;
+        padding: 4px;
+    }
+    .section-block .section-block-cart .text {
+        font-size: 14px;
+    }
+}
